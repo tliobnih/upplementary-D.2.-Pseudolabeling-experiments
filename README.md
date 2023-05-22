@@ -45,3 +45,7 @@ Target: MNIST dataset with a selection of 10,000 training samples and 10,000 val
 
 Although the first-stage source results already achieved an accuracy of 62%, there is still no observed gradual increase as described in the paper. However, it is comforting to note that the third-stage PL+VAT approach yielded higher accuracy compared to the second-stage PL method. Of course, this is only an average observation, as not every instance of the PL+VAT method outperforms PL among the 50 seed-based datasets.  
 Similarly, the data for these 50 experiments are stored in the dataset labeled "acc_mnist.csv", and each of them can reproduce the same results when rerun with the corresponding seed.  
+
+#### Experiment 3
+#### Experiment 4
+"acc_svhn.csv"
