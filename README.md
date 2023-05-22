@@ -24,7 +24,7 @@ The accuracy will be saved to 'checkpoint'.
 
 ### 資料架構與實驗數據
 
-##sorce: mnist 資料集選取10000筆資料
-##target: svhn 資料集選取10000(train)+10000(validation)筆資料
+## sorce: mnist 資料集選取10000筆資料
+## target: svhn 資料集選取10000(train)+10000(validation)筆資料
 
 
