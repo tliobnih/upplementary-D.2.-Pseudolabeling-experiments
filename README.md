@@ -74,11 +74,10 @@ Similar to Experiment 3, the results were still not significant.
 ### Another Experimence
 #### Experiment 5
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/37f09469-6191-4b67-a94e-5159ae3161cf" width="50%" height="50%">  
-
-Source: MNIST dataset with a selection of 10,000 data samples.    
-Target: SVHN dataset with a selection of 10,000 training samples and 10,000 validation samples.  
 ```
 python train.py --target_file svhn --seed 1
 ```
-![image](https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/fdb09b9d-8fe5-47c4-a8df-f40cf3e1f9bb)
+
+Since this is an additional experiment that deviates from the paper, no extra parameters were set to control it. If you want to rerun this experiment, you will need to manually swap the comments of these two lines.  
+![image](https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/fdb09b9d-8fe5-47c4-a8df-f40cf3e1f9bb)  
 
