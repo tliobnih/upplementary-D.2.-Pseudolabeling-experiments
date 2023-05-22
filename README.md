@@ -23,7 +23,7 @@ python train.py --target_file mnist --seed 1
 The accuracy will be saved to 'checkpoint'.
 
 ### Data Structure and Experimental Data
-Source: MNIST dataset with a selection of 10,000 data samples.\n
+Source: MNIST dataset with a selection of 10,000 data samples.\\
 Target: SVHN dataset with a selection of 10,000 training samples and 10,000 validation samples.
 
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/1a4f7597-9676-4c1b-b5b6-62c20c8c6777" width="50%" height="50%">
