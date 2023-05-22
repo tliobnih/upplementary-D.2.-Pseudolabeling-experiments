@@ -66,3 +66,6 @@ python train.py --target_file svhn --seed 1  --num_mnist 50000  --num_svhn 73257
 
 Similar to Experiment 3, the results were still not significant.  
 
+#### Experiment 5
+<img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/79c9b867-3782-4058-ba9b-6696b51aaadf" width="50%" height="50%">  
+
