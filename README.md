@@ -48,4 +48,6 @@ Similarly, the data for these 50 experiments are stored in the dataset labeled "
 
 #### Experiment 3
 #### Experiment 4
-"acc_svhn.csv"
+<img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/05e36eac-dc72-49c3-992d-d1f66dd0f310" width="50%" height="50%">
+
+
