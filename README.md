@@ -80,4 +80,5 @@ Target: SVHN dataset with a selection of 10,000 training samples and 10,000 vali
 ```
 python train.py --target_file svhn --seed 1
 ```
+![image](https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/fdb09b9d-8fe5-47c4-a8df-f40cf3e1f9bb)
 
