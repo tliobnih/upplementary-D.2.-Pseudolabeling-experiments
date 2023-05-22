@@ -43,3 +43,5 @@ Source: SVHN dataset with a selection of 10,000 data samples.
 Target: MNIST dataset with a selection of 10,000 training samples and 10,000 validation samples.  
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/5a525db2-a0cc-441f-bfeb-b047248275ad" width="30%" height="50%">  
 
+Although the first-stage source results already achieved an accuracy of 62%, there is still no observed gradual increase as described in the paper. However, it is comforting to note that the third-stage PL+VAT approach yielded higher accuracy compared to the second-stage PL method. Of course, this is only an average observation, as not every instance of the PL+VAT method outperforms PL among the 50 seed-based datasets.  
+Similarly, these 50 datasets can produce the same results by rerunning the experiments with the respective seeds.
