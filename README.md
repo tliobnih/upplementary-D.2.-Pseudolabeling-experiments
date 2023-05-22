@@ -63,7 +63,7 @@ Due to suspicions that the training dataset may not have been sufficient, all th
 
 #### Experiment 4
 Source: SVHN dataset with a selection of 73257 data samples.  
-Target: MNIST dataset with a selection of 50,000 training samples and 10,000 validation samples.  
+Target: MNIST dataset with a selection of 50,000 training samples and 10,000 validation samples.    
 ```
 python train.py --target_file svhn --seed 1  --num_mnist 50000  --num_svhn 73257
 ```
