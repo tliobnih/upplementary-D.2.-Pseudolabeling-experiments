@@ -47,6 +47,8 @@ Although the first-stage source results already achieved an accuracy of 62%, the
 Similarly, the data for these 50 experiments are stored in the dataset labeled "acc_mnist.csv", and each of them can reproduce the same results when rerun with the corresponding seed.  
 
 #### Experiment 3
+![image](https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/21ddcc41-c7a8-4f78-954a-c3e4ca8196c3)
+
 #### Experiment 4
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/05e36eac-dc72-49c3-992d-d1f66dd0f310" width="50%" height="50%">
 
