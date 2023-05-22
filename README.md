@@ -23,15 +23,14 @@ python train.py --target_file mnist --seed 1
 The accuracy will be saved to 'checkpoint'.
 
 ### Data Structure and Experimental Data
+<img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/1a4f7597-9676-4c1b-b5b6-62c20c8c6777" width="50%" height="50%">
+
 #### Experiment 1
 Source: MNIST dataset with a selection of 10,000 data samples.  
 Target: SVHN dataset with a selection of 10,000 training samples and 10,000 validation samples.
 
-<img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/1a4f7597-9676-4c1b-b5b6-62c20c8c6777" width="50%" height="50%">
-
 The following data presents results obtained using different seeds. It can be observed that the experimental scores vary significantly across different seeds.  
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/6acc4031-2337-482e-8bbc-2062830d1d12" width="50%" height="50%">
-
 
 Therefore, I conducted 50 experiments using seeds 1 to 50, and calculated the average of these 50 datas. The results are summarized in the following table:  
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/aa6edf85-70dc-43eb-9004-e75d3362ada3" width="30%" height="50%">  
@@ -41,6 +40,6 @@ From the data, it appears that the accuracy does not exhibit the gradual increas
 
 #### Experiment 2
 Source: SVHN dataset with a selection of 10,000 data samples.  
-Target: MNIST dataset with a selection of 10,000 training samples and 10,000 validation samples.
+Target: MNIST dataset with a selection of 10,000 training samples and 10,000 validation samples.  
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/5a525db2-a0cc-441f-bfeb-b047248275ad" width="30%" height="50%">  
 
