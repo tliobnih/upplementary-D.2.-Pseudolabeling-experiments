@@ -48,13 +48,21 @@ Similarly, the data for these 50 experiments are stored in the dataset labeled "
 
 #### Experiment 3
 Source: MNIST dataset with a selection of 60,000 data samples.  
-Target: SVHN dataset with a selection of 63257 training samples and 10,000 validation samples.
-<img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/21ddcc41-c7a8-4f78-954a-c3e4ca8196c3" width="40%" height="50%">
+Target: SVHN dataset with a selection of 63257 training samples and 10,000 validation samples.  
+```
+python train.py --target_file svhn --seed 1  --num_mnist 60000  --num_svhn 63257  
+```
+<img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/21ddcc41-c7a8-4f78-954a-c3e4ca8196c3" width="40%" height="50%">  
+
+Due to suspicions that the training dataset may not have been sufficient, all the available data from the dataset was included for training. However, the results remained unsatisfactory. Due to the large size of the dataset, only two sets of results were generated for this experiment, unlike Experiments 1 and 2, which involved running fifty times and averaging the results.  
 
 #### Experiment 4
 Source: SVHN dataset with a selection of 73257 data samples.  
-Target: MNIST dataset with a selection of 50,000 training samples and 10,000 validation samples.
-<img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/acffdcca-1a84-4d91-a932-1463f91a204d" width="50%" height="50%">
+Target: MNIST dataset with a selection of 50,000 training samples and 10,000 validation samples.  
+```
+python train.py --target_file svhn --seed 1  --num_mnist 50000  --num_svhn 73257
+```
+<img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/acffdcca-1a84-4d91-a932-1463f91a204d" width="50%" height="50%">  
 
-
+Similar to Experiment 3, the results were still not significant.
 
