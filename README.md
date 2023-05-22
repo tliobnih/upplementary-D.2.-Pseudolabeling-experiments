@@ -85,3 +85,10 @@ Since this is an additional experiment that deviates from the paper, no extra pa
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/fdb09b9d-8fe5-47c4-a8df-f40cf3e1f9bb" width="50%" height="50%">  
 
 
+### Parameter Settings
+The parameter settings are as follows:  
+
+PL+VAT:  
+lambdav = 1. In the paper, the given parameters are 3, 10, and 30. Through experimentation, I found that the results with lambdav = 1 and lambdav = 3 are similar. Since the VAT loss decreases much faster than the other loss, I ultimately chose lambdav = 1 with the intention of not letting the VAT loss decrease too quickly. However, this hasn't been extensively tested. Due to time constraints, I didn't run 50 iterations with lambdav = 3, but it's worth trying.  
+
+For the VAT implementation, I referred to https://github.com/sndnyang/vat_pytorch and made some modifications. As for the perturbation parameter, I chose to use its original settings. I did try to tweak it, but the effects were not significant. However, I believe this is an important parameter, and further tuning could potentially yield better results. With the current parameter configuration, the average perturbation is approximately 10^-6. Alternatively, you can consider using the "add_Gaussian_noise" function from https://github.com/CompVis/stable-diffusion/blob/main/ldm/modules/image_degradation/bsrgan.py, which might provide good results.  
