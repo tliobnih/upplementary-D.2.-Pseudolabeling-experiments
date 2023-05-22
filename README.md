@@ -28,7 +28,9 @@ The accuracy will be saved to 'checkpoint'.
 #### Experiment 1
 Source: MNIST dataset with a selection of 10,000 data samples.  
 Target: SVHN dataset with a selection of 10,000 training samples and 10,000 validation samples.
-
+```
+python train.py --target_file svhn --seed 1
+```
 The following data presents results obtained using different seeds. It can be observed that the experimental scores vary significantly across different seeds.  
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/6acc4031-2337-482e-8bbc-2062830d1d12" width="50%" height="50%">
 
@@ -41,6 +43,9 @@ From the data, it appears that the accuracy does not exhibit the gradual increas
 #### Experiment 2
 Source: SVHN dataset with a selection of 10,000 data samples.  
 Target: MNIST dataset with a selection of 10,000 training samples and 10,000 validation samples.  
+```
+python train.py --target_file mnist --seed 1
+```
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/5a525db2-a0cc-441f-bfeb-b047248275ad" width="30%" height="50%">  
 
 Although the first-stage source results already achieved an accuracy of 62%, there is still no observed gradual increase as described in the paper. However, it is comforting to note that the third-stage PL+VAT approach yielded higher accuracy compared to the second-stage PL method. Of course, this is only an average observation, as not every instance of the PL+VAT method outperforms PL among the 50 seed-based datasets.  
@@ -68,4 +73,8 @@ Similar to Experiment 3, the results were still not significant.
 
 #### Experiment 5
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/79c9b867-3782-4058-ba9b-6696b51aaadf" width="50%" height="50%">  
-
+Source: MNIST dataset with a selection of 10,000 data samples.  
+Target: SVHN dataset with a selection of 10,000 training samples and 10,000 validation samples.
+```
+python train.py --target_file svhn --seed 1
+```
