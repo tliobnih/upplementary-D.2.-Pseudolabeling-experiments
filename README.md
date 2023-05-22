@@ -35,3 +35,5 @@ The following data presents results obtained using different seeds. It can be ob
 Therefore, I conducted 50 experiments using seeds 1 to 50, and calculated the average of these 50 datas. The results are summarized in the following table:  
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/aa6edf85-70dc-43eb-9004-e75d3362ada3" width="30%" height="50%">  
 The results of the fifty experiments are stored in acc_svhn.csv, where each set of data can be replicated by simply changing the seed.
+
+From the data, it appears that the accuracy does not exhibit the gradual increase as mentioned in the paper. I suspect that this may be due to the low scores in the first stage of the source dataset. Therefore, I conducted an additional experiment where I swapped the roles of the datasets. This is because using SVHN as the source dataset typically results in better training of the model.
