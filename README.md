@@ -96,4 +96,4 @@ For the VAT implementation, I referred to https://github.com/sndnyang/vat_pytorc
 
 Finally, for the model part, I used a simple ResNet50. The reason I didn't use a more complex model is that I believed that if the method described in the paper is effective, even if the initial source accuracy is low, both PL and PL+VAT accuracy would gradually increase. However, the experimental results showed that they did not improve over time.  
 
-While the scores of PL and PL+VAT were not higher than the source accuracy, on average, VAT loss did show improvement in the PL accuracy compared to PL alone.
+While the accuracy of PL and PL+VAT were not higher than the source accuracy, on average, VAT loss did show improvement in the PL accuracy compared to PL alone.
