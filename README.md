@@ -22,9 +22,8 @@ python train.py --target_file mnist --seed 1
 
 The accuracy will be saved to 'checkpoint'.
 
-### 資料架構與實驗數據
-
-#### sorce: mnist 資料集選取10000筆資料
-#### target: svhn 資料集選取10000(train)+10000(validation)筆資料
+### Data Structure and Experimental Data
+#### Source: MNIST dataset with a selection of 10,000 data samples.
+#### Target: SVHN dataset with a selection of 10,000 training samples and 10,000 validation samples.
 
 ![image](https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/1a4f7597-9676-4c1b-b5b6-62c20c8c6777)
