@@ -76,6 +76,7 @@ Similar to Experiment 3, the results were still not significant.
 ### Another Experimence
 #### Experiment 5
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/37f09469-6191-4b67-a94e-5159ae3161cf" width="50%" height="50%">  
+
 ```
 python train.py --target_file svhn --seed 1
 ```
