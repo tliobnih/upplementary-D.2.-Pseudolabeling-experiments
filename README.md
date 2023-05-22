@@ -10,12 +10,12 @@ pip install -r requirements.txt
 
 ### Run code
 
-Run sorce: mnist target: svhn
+Run sorce: mnist, target: svhn
 ```
 python train.py --target_file svhn --seed 1
 ```
 
-Run sorce: svhn target: mnist 
+Run sorce: svhn, target: mnist 
 ```
 python train.py --target_file mnist --seed 1
 ```
@@ -23,6 +23,7 @@ python train.py --target_file mnist --seed 1
 The accuracy will be saved to 'checkpoint'.
 
 ### Data Structure and Experimental Data
+#### Experiment 1
 Source: MNIST dataset with a selection of 10,000 data samples.  
 Target: SVHN dataset with a selection of 10,000 training samples and 10,000 validation samples.
 
@@ -37,3 +38,9 @@ Therefore, I conducted 50 experiments using seeds 1 to 50, and calculated the av
 The results of the fifty experiments are stored in acc_svhn.csv, where each set of data can be replicated by simply changing the seed.
 
 From the data, it appears that the accuracy does not exhibit the gradual increase as mentioned in the paper. I suspect that this may be due to the low scores in the first stage of the source dataset. Therefore, I conducted an additional experiment where I swapped the roles of the datasets. This is because using SVHN as the source dataset typically results in better training of the model.
+
+#### Experiment 2
+Source: SVHN dataset with a selection of 10,000 data samples.  
+Target: MNIST dataset with a selection of 10,000 training samples and 10,000 validation samples.
+<img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/5a525db2-a0cc-441f-bfeb-b047248275ad" width="30%" height="50%">  
+
