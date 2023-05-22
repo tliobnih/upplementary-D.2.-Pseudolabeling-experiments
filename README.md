@@ -27,4 +27,4 @@ The accuracy will be saved to 'checkpoint'.
 #### sorce: mnist 資料集選取10000筆資料
 #### target: svhn 資料集選取10000(train)+10000(validation)筆資料
 
-
+![image](https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/1a4f7597-9676-4c1b-b5b6-62c20c8c6777)
