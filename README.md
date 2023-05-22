@@ -73,8 +73,10 @@ Similar to Experiment 3, the results were still not significant.
 
 #### Experiment 5
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/79c9b867-3782-4058-ba9b-6696b51aaadf" width="50%" height="50%">  
-Source: MNIST dataset with a selection of 10,000 data samples.  
-Target: SVHN dataset with a selection of 10,000 training samples and 10,000 validation samples.
+
+Source: MNIST dataset with a selection of 10,000 data samples.    
+Target: SVHN dataset with a selection of 10,000 training samples and 10,000 validation samples.  
 ```
 python train.py --target_file svhn --seed 1
 ```
+
