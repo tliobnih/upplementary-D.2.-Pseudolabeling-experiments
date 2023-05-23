@@ -31,7 +31,7 @@ Target: SVHN dataset with a selection of 10,000 training samples and 10,000 vali
 ```
 python train.py --target_file svhn --seed 1
 ```
-The following data presents results obtained using different seeds. It can be observed that the experimental scores vary significantly across different seeds.  
+The following data presents results obtained using different seeds. It can be observed that the experimental accuracy vary significantly across different seeds.  
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/6acc4031-2337-482e-8bbc-2062830d1d12" width="50%" height="50%">
 
 Therefore, I conducted 50 experiments using seeds 1 to 50, and calculated the average of these 50 datas. The results are summarized in the following table:  
@@ -77,14 +77,11 @@ Similar to Experiment 3, the results were still not significant.
 #### Experiment 5
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/37f09469-6191-4b67-a94e-5159ae3161cf" width="50%" height="50%">  
 
-```
-python train.py --target_file svhn --seed 1
-```
-
 Since this is an additional experiment that deviates from the paper, no extra parameters were set to control it. If you want to rerun this experiment, you will need to manually swap the comments of these two lines.  
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/fdb09b9d-8fe5-47c4-a8df-f40cf3e1f9bb" width="50%" height="50%">  
 
 
+From the table, it can be observed that in Experiment 5, which included the source data in addition to PL, the accuracy were significantly higher compared to Experiments 1 and 2 where only PL was used. Although the accuracy still did not show a gradual increase, it is expected that repeating Experiment 5 with different seeds for 50 iterations would yield better results compared to Experiments 1 and 2.  
 ### Parameter Settings
 The parameter settings are as follows:  
 
