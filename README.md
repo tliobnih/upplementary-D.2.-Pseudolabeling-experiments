@@ -69,7 +69,7 @@ Target: MNIST dataset with a selection of 50,000 training samples and 10,000 val
 python train.py --target_file svhn --seed 1  --num_mnist 50000  --num_svhn 73257
 ```
 
-<img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/acffdcca-1a84-4d91-a932-1463f91a204d" width="50%" height="50%">  
+<img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/1e594b4e-3e12-43bd-8362-69b1e43f9073" width="60%" height="50%">  
 
 Similar to Experiment 3, the results were still not significant.  
 
@@ -79,7 +79,7 @@ Similar to Experiment 3, the results were still not significant.
 
 Since this is an additional experiment that deviates from the paper, no extra parameters were set to control it. If you want to rerun this experiment, you will need to manually swap the comments of these two lines.  
 <img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/fdb09b9d-8fe5-47c4-a8df-f40cf3e1f9bb" width="50%" height="50%">  
-<img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/ac02b3cf-bc62-49c4-acae-9021d1b4bbc6" width="70%" height="70%">    
+<img src="https://github.com/tliobnih/upplementary-D.2.-Pseudolabeling-experiments/assets/52643360/ac02b3cf-bc62-49c4-acae-9021d1b4bbc6" width="60%" height="60%">    
 
 From the table, it can be observed that in Experiment 5, which included the source data in addition to PL, the accuracy were significantly higher compared to Experiments 1 and 2 where only PL was used. Although the accuracy still did not show a gradual increase, it is expected that repeating Experiment 5 with different seeds for 50 iterations would yield better results compared to Experiments 1 and 2.  
 ### Parameter Settings
