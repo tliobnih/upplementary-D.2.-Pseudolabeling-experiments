@@ -2,8 +2,7 @@ import torch
 from src.vat_c import *
 import torch.nn.functional as nfunc
 from tqdm import tqdm
-import numpy as np
-import os
+
 def vat_train_step(epoch, model, train_loader, criterion, optimizer, constant, device, lambdav):
     num, correct, in_correct = 0, 0, 0
     train_bar = tqdm(train_loader, desc=f'Training {epoch:0>3}')
